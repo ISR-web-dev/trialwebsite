@@ -1,0 +1,15 @@
+@keyframes slideup {
+    from {
+        transform: translateY(150px);
+        opacity: 0.2;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.slideup {
+    animation: slideup 1s;
+
+}

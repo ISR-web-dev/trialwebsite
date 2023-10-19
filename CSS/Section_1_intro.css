@@ -1,0 +1,54 @@
+.section_1_intro {
+    position: relative;
+}
+.section_1_intro img {
+    position: relative;
+    width: 100%;
+}
+.tag_line {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 75px;
+    color: white;
+    width: 700px;
+}
+.camera_man {
+    color: rgb(133, 203, 154);
+}
+
+@media(max-width: 750px) {
+    .section_1_intro {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tag_line {
+        position: static;
+        font-size: 30px;
+        left: 40px;
+        width: 260px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .section_1_intro img {
+        width: 100%;
+        height: 420px;
+        object-fit: cover;
+        object-position: right;
+    }
+}
+
+@media(max-width: 400px) {
+    .section_1_intro img {
+        width: 100%;
+        height: 380px;
+        object-fit: cover;
+        object-position: right;
+    }
+    .ur_email {
+        width: 300px;
+    }
+
+}

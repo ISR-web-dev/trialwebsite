@@ -1,0 +1,104 @@
+.section_2 {
+    position: relative;
+    height: 100%;
+    text-align: center;
+}
+.section_2 img {
+    width: 100%;
+    margin-top: -4px;
+    position: relative;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-betweens;
+    position: absolute;
+    top: 25%;
+    right: 18%;
+    height: 50%;
+    width: 25%;
+    text-align: left;
+}
+.about_me_heading {
+    font-size: 26px;
+    color: white;
+}
+.about_me_para {
+    color: white;
+    margin-top: 20%;
+    font-size: 14px;
+}
+.button_container {
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+}
+.hire_butt {
+    padding: 11px 21px;
+    border: 0;
+    background-color: rgb(85, 203, 120);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    transition: box-shadow 0.3s;
+}
+.hire_butt:hover {
+    box-shadow: 0 0 20px rgba(79, 226, 123, 0.6);
+}
+.hire_butt:active {
+    opacity: 0.2;
+}
+.dnld_but {
+    margin-left: 20px;
+    padding: 10px 20px;
+    border: 1px solid rgb(85, 203, 120);
+    background-color: transparent;
+    color: white;
+    border-radius: 2px;
+    transition: background-color 0.3s;
+}
+.dnld_but:hover {
+    background-color: rgb(85, 203, 120);
+}
+.dnld_but:active {
+    opacity: 0.2;
+}
+.service_title {
+    font-size: 50px;
+    margin-bottom: 200px;
+}
+@media(max-width: 750px) {
+    .section_2 img {
+        margin-top: 200px;
+        height: 500px;
+        object-fit: cover;
+        object-position: left;
+    }
+    .about {
+        width: 400px;
+        position: static;
+        text-align: center;
+        align-items: center;
+        height: 450px;
+    }
+    
+    .service_title {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+    .section_2 {
+        height: 1400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .section_2 img {
+        margin-top: 200px;
+        height: 380px;
+        object-fit: cover;
+        object-position: left;
+    }
+}
